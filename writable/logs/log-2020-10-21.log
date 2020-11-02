@@ -1,0 +1,71 @@
+CRITICAL - 2020-10-21 06:11:26 --> Undefined property: App\Controllers\Profile::$db
+#0 C:\xampp\htdocs\e-kliping\app\Controllers\Profile.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(918): App\Controllers\Profile->update()
+#2 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-kliping\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-kliping\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-21 06:13:06 --> Undefined property: App\Controllers\Profile::$db
+#0 C:\xampp\htdocs\e-kliping\app\Controllers\Profile.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(918): App\Controllers\Profile->update()
+#2 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-kliping\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-kliping\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-21 06:14:11 --> Undefined property: App\Controllers\Profile::$db
+#0 C:\xampp\htdocs\e-kliping\app\Controllers\Profile.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(918): App\Controllers\Profile->update()
+#2 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-kliping\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-kliping\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-21 06:14:42 --> Undefined property: App\Controllers\Profile::$db
+#0 C:\xampp\htdocs\e-kliping\app\Controllers\Profile.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(918): App\Controllers\Profile->update()
+#2 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-kliping\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-kliping\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-21 06:15:13 --> Cannot call constructor
+#0 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(890): App\Controllers\Profile->__construct()
+#1 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-kliping\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-kliping\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-21 06:15:33 --> Undefined property: App\Controllers\Profile::$db
+#0 C:\xampp\htdocs\e-kliping\app\Controllers\Profile.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(918): App\Controllers\Profile->update()
+#2 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-kliping\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-kliping\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-21 06:15:50 --> Unknown column 'id_user' in 'where clause'
+#0 C:\xampp\htdocs\e-kliping\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\xampp\htdocs\e-kliping\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\xampp\htdocs\e-kliping\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\xampp\htdocs\e-kliping\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\xampp\htdocs\e-kliping\app\Controllers\Profile.php(81): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(918): App\Controllers\Profile->update()
+#6 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#7 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-kliping\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\e-kliping\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-10-21 06:17:32 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\e-kliping\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\xampp\htdocs\e-kliping\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\xampp\htdocs\e-kliping\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\xampp\htdocs\e-kliping\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\xampp\htdocs\e-kliping\app\Controllers\Profile.php(81): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(918): App\Controllers\Profile->update()
+#6 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#7 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-kliping\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\e-kliping\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}

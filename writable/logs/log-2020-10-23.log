@@ -1,0 +1,52 @@
+CRITICAL - 2020-10-23 02:12:59 --> Undefined variable: data
+#0 C:\xampp\htdocs\e-kliping\app\Controllers\Login.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-kliping\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-kliping\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-23 02:14:00 --> Undefined variable: uploads
+#0 C:\xampp\htdocs\e-kliping\app\Views\admin\media.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\e-kliping\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-kliping\system\Common.php(1119): CodeIgniter\View\View->render('admin/media', Array, true)
+#3 C:\xampp\htdocs\e-kliping\app\Controllers\Login.php(14): view('admin/media', Array)
+#4 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-kliping\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-kliping\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-23 02:15:07 --> Undefined variable: uploads
+#0 C:\xampp\htdocs\e-kliping\app\Views\admin\media.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\e-kliping\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-kliping\system\Common.php(1119): CodeIgniter\View\View->render('admin/media', Array, true)
+#3 C:\xampp\htdocs\e-kliping\app\Controllers\Login.php(14): view('admin/media', Array)
+#4 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-kliping\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-kliping\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-23 02:16:21 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\e-kliping\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\e-kliping\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\e-kliping\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\e-kliping\app\Controllers\Login.php(24): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-kliping\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-kliping\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-23 02:17:52 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\e-kliping\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\e-kliping\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\e-kliping\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\e-kliping\app\Controllers\Login.php(24): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\e-kliping\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-kliping\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-kliping\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
